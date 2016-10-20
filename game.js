@@ -36,7 +36,7 @@ exports.getWord = function() {
 		newArray[i] = "_";
 		}
 	var wordLength = targetWordArray.length;
-	console.log('Please guess the word: '+newArray+' ( '+wordLength+'-letter word)'+targetWord);
+	console.log('Please guess the word: '+newArray+' ( '+wordLength+'-letter word: Pokemon themed!)');
 	exports.word = targetWord;
 	}
 	
